@@ -28,3 +28,10 @@ Developed with **BLogic Mikroelektronik · OSTİM Technical University** for TEK
 </table>
 
 [Explore the project →](https://github.com/BLogic-Microelectronic/BLogic-MCU)
+
+### GitHub contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
+  <img src="assets/contributions-light.svg" alt="Donut charts of my GitHub contributions: the total since 2025 split by year, and each year split by type">
+</picture>

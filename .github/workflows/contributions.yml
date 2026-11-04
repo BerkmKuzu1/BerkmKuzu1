@@ -1,0 +1,53 @@
+name: Contribution charts
+
+# Rebuilds assets/contributions-{dark,light}.svg, the donut charts at the
+# bottom of the profile README, and commits them when a number has changed.
+
+on:
+  schedule:
+    # 03:41 UTC daily. Off the hour on purpose: GitHub delays cron jobs that
+    # pile up on :00.
+    - cron: "41 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/build_contributions.py"
+      - ".github/workflows/contributions.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contributions
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build contribution charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 tools/build_contributions.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/contributions-dark.svg assets/contributions-light.svg
+
+          # --cached, not a plain diff: on the very first run these files are
+          # untracked and a working-tree diff would report "nothing changed".
+          if git diff --cached --quiet; then
+            echo "No change in the contribution charts."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh contribution charts"
+          git push
