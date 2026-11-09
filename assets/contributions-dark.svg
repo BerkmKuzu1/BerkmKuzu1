@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="348" viewBox="0 0 840 348" role="img" aria-labelledby="t d">
 <title id="t">GitHub contributions of BerkmKuzu1</title>
-<desc id="d">1,187 contributions since 2025: 1,076 in 2026, 111 in 2025. 2026 by type: Commits 237, Pull requests 5, Issues 3, New repos 13, Private 817, Other 1. 2025 by type: Commits 100, New repos 2, Private 8, Other 1.</desc>
+<desc id="d">1,191 contributions since 2025: 1,080 in 2026, 111 in 2025. 2026 by type: Commits 241, Pull requests 5, Issues 3, New repos 13, Private 817, Other 1. 2025 by type: Commits 100, New repos 2, Private 8, Other 1.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#8b949e;font-size:12px}.title{fill:#e6edf3;font-size:15px;font-weight:600;text-anchor:middle}.caption,.unit{font-size:11px;text-anchor:middle}.count{fill:#e6edf3;font-size:26px;font-weight:600;text-anchor:middle}.label{fill:#e6edf3}.value{text-anchor:end;font-variant-numeric:tabular-nums}</style>
 <rect x="0.5" y="0.5" width="839" height="347" rx="6" fill="none" stroke="#30363d"/>
 <line x1="280" y1="16" x2="280" y2="332" stroke="#30363d"/>
@@ -10,14 +10,14 @@
 <text class="caption" x="140" y="48">by year, since 2025</text>
 <circle cx="140" cy="136" r="64" fill="none" stroke="#21262d" stroke-width="20"/>
 <g fill="none" stroke-width="20" transform="rotate(-90 140 136)">
-<circle cx="140" cy="136" r="64" stroke="#f59410" stroke-dasharray="364.52 402.12" stroke-dashoffset="0.00"><title>2026: 1,076 (91%)</title></circle>
-<circle cx="140" cy="136" r="64" stroke="#a35f02" stroke-dasharray="37.60 402.12" stroke-dashoffset="-364.52"><title>2025: 111 (9%)</title></circle>
+<circle cx="140" cy="136" r="64" stroke="#f59410" stroke-dasharray="364.65 402.12" stroke-dashoffset="0.00"><title>2026: 1,080 (91%)</title></circle>
+<circle cx="140" cy="136" r="64" stroke="#a35f02" stroke-dasharray="37.48 402.12" stroke-dashoffset="-364.65"><title>2025: 111 (9%)</title></circle>
 </g>
-<text class="count" x="140" y="140">1,187</text>
+<text class="count" x="140" y="140">1,191</text>
 <text class="unit" x="140" y="158">contributions</text>
 <circle cx="44" cy="232" r="5" fill="#f59410"/>
 <text class="label" x="56" y="236">2026</text>
-<text class="value" x="236" y="236">1,076 &#183; 91%</text>
+<text class="value" x="236" y="236">1,080 &#183; 91%</text>
 <circle cx="44" cy="250" r="5" fill="#a35f02"/>
 <text class="label" x="56" y="254">2025</text>
 <text class="value" x="236" y="254">111 &#183; 9%</text>
@@ -27,21 +27,21 @@
 <text class="caption" x="140" y="48">by type, so far</text>
 <circle cx="140" cy="136" r="64" fill="none" stroke="#21262d" stroke-width="20"/>
 <g fill="none" stroke-width="20" transform="rotate(-90 140 136)">
-<circle cx="140" cy="136" r="64" stroke="#6e7681" stroke-dasharray="305.33 402.12" stroke-dashoffset="0.00"><title>Private: 817 (76%)</title></circle>
-<circle cx="140" cy="136" r="64" stroke="#2f81f7" stroke-dasharray="88.57 402.12" stroke-dashoffset="-305.33"><title>Commits: 237 (22%)</title></circle>
-<circle cx="140" cy="136" r="64" stroke="#d29922" stroke-dasharray="4.86 402.12" stroke-dashoffset="-393.90"><title>New repos: 13 (1%)</title></circle>
-<circle cx="140" cy="136" r="64" stroke="#a371f7" stroke-dasharray="1.87 402.12" stroke-dashoffset="-398.76"><title>Pull requests: 5 (&lt;1%)</title></circle>
+<circle cx="140" cy="136" r="64" stroke="#6e7681" stroke-dasharray="304.20 402.12" stroke-dashoffset="0.00"><title>Private: 817 (76%)</title></circle>
+<circle cx="140" cy="136" r="64" stroke="#2f81f7" stroke-dasharray="89.73 402.12" stroke-dashoffset="-304.20"><title>Commits: 241 (22%)</title></circle>
+<circle cx="140" cy="136" r="64" stroke="#d29922" stroke-dasharray="4.84 402.12" stroke-dashoffset="-393.93"><title>New repos: 13 (1%)</title></circle>
+<circle cx="140" cy="136" r="64" stroke="#a371f7" stroke-dasharray="1.86 402.12" stroke-dashoffset="-398.77"><title>Pull requests: 5 (&lt;1%)</title></circle>
 <circle cx="140" cy="136" r="64" stroke="#3fb950" stroke-dasharray="1.12 402.12" stroke-dashoffset="-400.63"><title>Issues: 3 (&lt;1%)</title></circle>
 <circle cx="140" cy="136" r="64" stroke="#484f58" stroke-dasharray="0.37 402.12" stroke-dashoffset="-401.75"><title>Other: 1 (&lt;1%)</title></circle>
 </g>
-<text class="count" x="140" y="140">1,076</text>
+<text class="count" x="140" y="140">1,080</text>
 <text class="unit" x="140" y="158">contributions</text>
 <circle cx="44" cy="232" r="5" fill="#6e7681"/>
 <text class="label" x="56" y="236">Private</text>
 <text class="value" x="236" y="236">817 &#183; 76%</text>
 <circle cx="44" cy="250" r="5" fill="#2f81f7"/>
 <text class="label" x="56" y="254">Commits</text>
-<text class="value" x="236" y="254">237 &#183; 22%</text>
+<text class="value" x="236" y="254">241 &#183; 22%</text>
 <circle cx="44" cy="268" r="5" fill="#d29922"/>
 <text class="label" x="56" y="272">New repos</text>
 <text class="value" x="236" y="272">13 &#183; 1%</text>
