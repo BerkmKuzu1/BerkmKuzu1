@@ -6,7 +6,7 @@ Digital Design Engineer in Ankara,Türkiye
 
 An open-source **RISC-V MCU with a custom TinyConv AI accelerator** for keyword spotting. Built around the **CV32E40P (RV32IMC)** core with AXI4 connectivity, FPGA validation and a **SKY130 ASIC** implementation.
 
-Developed with **BLogic Mikroelektronik · OSTİM Technical University** for TEKNOFEST 2026.
+Developed for TEKNOFEST 2026.
 
 <table>
   <tr>
